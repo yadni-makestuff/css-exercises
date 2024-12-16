@@ -1,0 +1,16 @@
+.para{
+    background-color: rgb(247, 158, 173);
+    font-family: Verdana, DejaVu Sans, sans-serif;
+}
+#second_element{
+    color: rgb(30, 30, 231);
+    font-size: 36px;
+}
+.third_element{
+    font-size: 24px;
+}
+#fourth_element{
+    background-color: rgb(135, 226, 135);
+    font-size: 24px;
+    font-weight: bold;
+}
