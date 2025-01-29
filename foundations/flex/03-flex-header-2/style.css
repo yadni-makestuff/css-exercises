@@ -6,23 +6,23 @@ body {
   margin: 0;
   background: #eee;
   font-family: Besley, serif;
-  
+
 }
 
 .header {
   background: white;
   border-bottom: 1px solid #ddd;
-  box-shadow: 0 0 8px rgba(0,0,0,.1);
- 
+  box-shadow: 0 0 8px rgba(0, 0, 0, .1);
+
 }
 
 .profile-image {
   background: rebeccapurple;
-  box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
+  box-shadow: inset 2px 2px 4px rgba(0, 0, 0, .5);
   border-radius: 50%;
   width: 48px;
   height: 48px;
-  margin-right:5px;
+  margin-right: 5px;
 
 }
 
@@ -50,46 +50,55 @@ a {
   color: rebeccapurple;
   margin: 10px;
   padding: px;
-  
-  
+
+
 }
 
 ul {
-  
+
   list-style-type: none;
 
   margin: 15px;
   padding: 0px;
 
-  
+
 }
-.header,.left-side,.right-side,.links{
+
+.header,
+.left-side,
+.right-side,
+.links {
   display: flex;
   justify-content: space-between;
-  
+
 }
-.left-side,.right-side{
-  
-  padding:0px;
+
+.left-side,
+.right-side {
+
+  padding: 0px;
   margin: 0px;
-  flex:1;
+  flex: 1;
   align-items: center;
-  
-  
-}
-.left-side{
 
-  justify-content:flex-start;
 
-  
-  
 }
-.right-side{
+
+.left-side {
+
+  justify-content: flex-start;
+
+
+
+}
+
+.right-side {
 
   justify-content: flex-end;
 
-  
+
 }
-.notifications{
+
+.notifications {
   margin: 15px;
 }
