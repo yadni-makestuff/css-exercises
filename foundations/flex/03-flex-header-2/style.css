@@ -6,12 +6,14 @@ body {
   margin: 0;
   background: #eee;
   font-family: Besley, serif;
+  
 }
 
 .header {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+ 
 }
 
 .profile-image {
@@ -20,6 +22,8 @@ body {
   border-radius: 50%;
   width: 48px;
   height: 48px;
+  margin-right:5px;
+
 }
 
 .logo {
@@ -27,6 +31,8 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  margin-left: 5px;
+
 }
 
 button {
@@ -35,14 +41,55 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+
 }
 
 a {
   /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
+  margin: 10px;
+  padding: px;
+  
+  
 }
 
 ul {
+  
   list-style-type: none;
+
+  margin: 15px;
+  padding: 0px;
+
+  
+}
+.header,.left-side,.right-side,.links{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.left-side,.right-side{
+  
+  padding:0px;
+  margin: 0px;
+  flex:1;
+  align-items: center;
+  
+  
+}
+.left-side{
+
+  justify-content:flex-start;
+
+  
+  
+}
+.right-side{
+
+  justify-content: flex-end;
+
+  
+}
+.notifications{
+  margin: 15px;
 }
